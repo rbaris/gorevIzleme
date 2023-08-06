@@ -19,7 +19,7 @@ import static java.util.Arrays.stream;
 
 @Service
 public class JWToken {
-    public final String secretKey = "STP";
+    public final String secretKey = "RBA";
     public final String Issuer = "localhost";
 
     public String  generateToken(User user, int validity){

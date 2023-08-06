@@ -45,7 +45,7 @@ public class GorevIzlemeApplication {
 
             userService.saveUser(new User(null,"rbaris","rbaris@email.com","123baris","Barış","Atakcı","0531987452",new ArrayList<>()));
             userService.saveUser(new User(null,"bramazan","ramazan@email.com","12345","Ramazan","Atakcı","053197452563",new ArrayList<>()));
-            
+
             userService.addRoleToUser("rbaris","ROLE_ADMIN");
             userService.addRoleToUser("rbaris","ROLE_PILOT");
             userService.addRoleToUser("bramazan","ROLE_COPILOT");
