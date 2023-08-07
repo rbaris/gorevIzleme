@@ -34,7 +34,7 @@ public class GorevIzlemeApplication {
     }
 
 
-    //HATA 2
+    
     @Bean
     CommandLineRunner run(UserService userService, UserRoleService userRoleService){
         return args -> {
